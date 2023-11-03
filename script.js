@@ -7,6 +7,9 @@ const formPopUpBookTitle = document.getElementById('BookTitle');
 const formPopUpBookAuthor = document.getElementById('BookAuthor');
 const addItemPreview = document.getElementById('addItemPreview');
 
+const myItems = [];
+
+
 function displayFormPopUp(){
   formPopUp.style.display = 'block';
 };
@@ -44,3 +47,6 @@ function addPreview(){
 
 addItemPreview.parentNode.insertBefore(newElement, addItemPreview);
 }
+
+let 
+
