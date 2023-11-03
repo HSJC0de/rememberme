@@ -8,13 +8,13 @@
 </head>
 <body>
 
-  <div class="form-container" style="position: fixed; top: 50%; left: 35%; z-index: 1; display: none;">
+  <div id="formPopUp"class="form-container" style="position: fixed; top: 50%; left: 35%; z-index: 1; display: none;">
     <form class="form-control d-flex flex-column " style="width: 30vw;">
       <label for="BookTitle" class="">BookTitle</label>
       <input type="text" name="BookTitle" id="BookTitle">
       <label for="BookAuthor" class="">BookAuthor</label>
       <input type="text" name="BookAuthor" id="BookAuthor">
-      <button class="btn btn-primary" style="width: fit-content;">Submit</button>
+      <button id="formPopUpSubmitButton" class="btn btn-primary" style="width: fit-content;">Submit</button>
     </form>
   </div>
 
@@ -43,7 +43,7 @@
             <button class=" btn btn-primary" id="addItem1">Add Item</button>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="previewContainer">
 
           <div class="col d-flex justify-content-center mb-5 mt-5">
             <div class="card" style="width: 20rem; height: 25rem;">
