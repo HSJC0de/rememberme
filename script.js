@@ -46,7 +46,17 @@ function addPreview(){
   </div>`;
 
 addItemPreview.parentNode.insertBefore(newElement, addItemPreview);
+createItemForArray(bookTitle, author);
 }
 
-let 
+function createItemForArray(bookTitle, bookAuthor){
+  let newItem = {
+    'bookTitle': bookTitle,
+    'bookAuthor': bookAuthor,
+  };
+  myItems.push(newItem);
+}
 
+function saveItemToLocalStorage(){
+  localStorage.setItem(newItem, )
+}
