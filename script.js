@@ -56,7 +56,3 @@ function createItemForArray(bookTitle, bookAuthor){
   };
   myItems.push(newItem);
 }
-
-function saveItemToLocalStorage(){
-  localStorage.setItem(newItem, )
-}
